@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Get a Grant</title>
     {% load static %}
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
     <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" />
@@ -135,7 +135,8 @@
         function template(id,name)
         {
             return "<div class='row exam-panel'>"+
-                    "<a href='#'><div class='panel panel-default col-sm-4 col-sm-offset-4'>"+
+                    "<a href='#'> Instructions <br> Pencil and papers are allowed " +
+                    "<div class='panel panel-default col-sm-4 col-sm-offset-4'>"+
                     "<div class='exam_template panel-body' id="+id+">"+
                     name+
                     "</div></div></a></div>";
