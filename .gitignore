@@ -1,0 +1,4 @@
+../../Desktop/quizwizard-master/venv
+*.pyc
+staticfiles
+.env
